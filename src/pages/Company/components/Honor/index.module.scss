@@ -1,0 +1,130 @@
+.wrap{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.titleWrap{
+	width: 100%;
+	height: 227px;
+	padding-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.icon{
+		width: 120px;
+	}
+	.title{
+		margin: 0 30px;
+		font-size: 36px;
+		font-weight: bold;
+        color: #333333;
+		line-height: 47px;
+	}
+}
+.common{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.first{
+	@extend .common;
+	.content{
+		max-width: 1200px;
+		display: flex;
+		flex-wrap: wrap;
+		.item{
+			width: 590px;
+			height: 180px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			box-shadow: 0px 0px 10px 0px rgba(242,242,242,1);
+			border-radius: 4px;
+			padding: 20px;
+			display: flex;
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+			&:nth-last-child(2){
+				margin-bottom: 0;
+			}
+			&:nth-last-child(1){
+				margin-bottom: 0;
+			}
+			.left{
+				width: 140px;
+				height: 140px;
+				margin-right: 20px;
+				background-size: 100% 100%;
+			}
+			.right{
+				max-width: 379px;
+				.title{
+					margin-bottom: 6px;
+					font-size: 20px;
+					color: rgba(17,17,17,1);
+					line-height: 26px;
+				}
+				.word{
+					font-size: 16px;
+					color: rgba(102,102,102,1);
+					line-height: 24px;
+				}
+			}
+		}
+	}
+}
+.second{
+	@extend .common;
+	.word{
+		position: absolute;
+		bottom: 0;
+		max-width: 208px;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+		line-height: 21px;
+	}
+	.top{
+		max-width: 1200px;
+		margin-bottom: 40px;
+		display: flex;
+		.item{
+			position: relative;
+			width: 270px;
+			height: 300px;
+			margin-right: 40px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+	.bottom{
+		max-width: 1200px;
+		margin-bottom: 40px;
+		display: flex;
+		flex-wrap: wrap;
+		.item{
+			position: relative;
+			width: 580px;
+			height: 300px;
+			margin-right: 40px;
+			margin-bottom: 40px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+			.word{
+				max-width: 384px;
+			}
+		}
+	}
+}

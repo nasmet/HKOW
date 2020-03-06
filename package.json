@@ -1,0 +1,40 @@
+{
+  "name": "HKOW",
+  "version": "0.0.1",
+  "description": "好课乐课官网",
+  "author": "wujinhui",
+  "dependencies": {
+    "@alifd/next": "^1.18.11",
+    "@icedesign/container": "^1.x",
+    "@icedesign/img": "^1.0.4",
+    "@icedesign/layout": "^1.x",
+    "axios": "^0.19.0",
+    "moment": "^2.23.0",
+    "react": "^16.8",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^4.2.2",
+    "universal-cookie": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "ice-plugin-fusion": "^0.1.4",
+    "ice-plugin-moment-locales": "^0.1.0",
+    "ice-scripts": "^2.1.12"
+  },
+  "scripts": {
+    "start": "ice-scripts dev",
+    "build": "ice-scripts build",
+    "test": "ice-scripts test",
+    "lint": "eslint . --ext '.js,.jsx' --fix"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

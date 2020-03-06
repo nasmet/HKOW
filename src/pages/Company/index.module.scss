@@ -1,0 +1,21 @@
+.wrap{
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+.tab{
+	width: 1200px;
+	height: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	z-index: 999;
+}
+.content{
+	padding: 0 140px;
+	background: #fff;
+	font-size: 30px;
+	line-height: 120px;
+}
